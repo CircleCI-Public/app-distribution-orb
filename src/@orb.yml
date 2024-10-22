@@ -1,0 +1,11 @@
+version: 2.1
+
+description: >
+  The easiest way to distribute your mobile applications all inside CircleCI
+display:
+  home_url: "https://tadashi0713.dev/blog/en/circleci-app-distribution"
+  source_url: "https://github.com/tadashi0713/circleci-app-distribution"
+
+orbs:
+  slack: circleci/slack@4.12.5
+  github-cli: circleci/github-cli@2.3.0
