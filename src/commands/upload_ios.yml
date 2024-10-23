@@ -9,7 +9,7 @@ parameters:
       Enter the name of the environment variable containing either CircleCI's Personal token or Project token.
       https://circleci.com/docs/managing-api-tokens/
     type: env_var_name
-    default: CIRCLE_TOKEN
+    default: CIRCLECI_CLI_TOKEN
 steps:
   - run:
       name: Install packages needed for this Orb
