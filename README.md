@@ -1,17 +1,9 @@
-# Orb Template
+# App distribution Orb for CircleCI
 
 
-[![CircleCI Build Status](https://circleci.com/gh/tadashi0713/circleci-app-distribution.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/tadashi0713/circleci-app-distribution) [![CircleCI Orb Version](https://badges.circleci.com/orbs/tadashi0713/app-distribution.svg)](https://circleci.com/developer/orbs/orb/tadashi0713/app-distribution) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/tadashi0713/circleci-app-distribution/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
+[![CircleCI Build Status](https://circleci.com/gh/CircleCI-Public/app-distribution-orb.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/CircleCI-Public/app-distribution-orb) [![CircleCI Orb Version](https://badges.circleci.com/orbs/CircleCI-Public/app-distribution-orb.svg)](https://circleci.com/developer/orbs/orb/CircleCI-Public/app-distribution-orb) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/CircleCI-Public/app-distribution-orb/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
 
-
-
-A project template for Orbs.
-
-This repository is designed to be automatically ingested and modified by the CircleCI CLI's `orb init` command.
-
-_**Edit this area to include a custom title and description.**_
-
----
+The easiest way to distribute your mobile applications all inside CircleCI.
 
 ## Resources
 
