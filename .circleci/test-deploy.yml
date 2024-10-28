@@ -63,13 +63,19 @@ workflows:
       # Test your orb's commands in a custom job and test your orb's jobs directly as a part of this workflow.
       - test-android-machine-env:
           filters: *filters
-          context: circleci-cli-orb-testing
+          context:
+          - circleci-cli-orb-testing
+          - SLACK_NOTIFICATIONS_TEST
       - test-android-docker-env:
           filters: *filters
-          context: circleci-cli-orb-testing
+          context:
+          - circleci-cli-orb-testing
+          - SLACK_NOTIFICATIONS_TEST
       - test-ios-env:
           filters: *filters
-          context: circleci-cli-orb-testing
+          context:
+          - circleci-cli-orb-testing
+          - SLACK_NOTIFICATIONS_TEST
       # The orb must be re-packed for publishing, and saved to the workspace.
       - orb-tools/pack:
           filters: *release-filters
