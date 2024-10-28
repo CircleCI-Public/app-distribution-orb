@@ -7,5 +7,5 @@ display:
   source_url: "https://github.com/tadashi0713/circleci-app-distribution"
 
 orbs:
-  slack: circleci/slack@4.12.5
-  github-cli: circleci/github-cli@2.3.0
+  slack: circleci/slack@5.0.0
+  github-cli: circleci/github-cli@2.5.0
